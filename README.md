@@ -75,6 +75,7 @@ keytool -importkeystore \
   -deststorepass changeit
 ```
 # Spring Boot Configuration
+```bash
 spring.data.mongodb.uri=mongodb+srv://<username>:<password>@<cluster-url>/test?ssl=true
 
 javax.net.ssl.keyStore=client-keystore.p12
@@ -84,3 +85,4 @@ javax.net.ssl.keyStoreType=PKCS12
 javax.net.ssl.trustStore=truststore.jks
 javax.net.ssl.trustStorePassword=changeit
 javax.net.ssl.trustStoreType=JKS
+```
